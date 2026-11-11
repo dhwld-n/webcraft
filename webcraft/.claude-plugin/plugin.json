@@ -1,0 +1,11 @@
+{
+  "name": "webcraft",
+  "version": "0.1.0",
+  "description": "프롬프트를 처음부터 자세히 쓰지 않아도 짧은 요청만으로 디자인과 애니메이션이 들어간 웹사이트 시드 결과물을 만들어, 원하는 부분만 고치면 되게 해 준다. 스타일 카드, 레퍼런스 느낌 노트, 모션 레시피를 바탕으로 에이전트들이 방향을 고르고 검수한다.",
+  "author": {
+    "name": "dhwld-n"
+  },
+  "homepage": "https://github.com/dhwld-n/webcraft",
+  "repository": "https://github.com/dhwld-n/webcraft",
+  "license": "MIT"
+}

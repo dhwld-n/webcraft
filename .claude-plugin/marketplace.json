@@ -1,0 +1,16 @@
+{
+  "name": "dhwld-n",
+  "owner": {
+    "name": "dhwld-n"
+  },
+  "metadata": {
+    "description": "dhwld-n의 Claude Code 플러그인"
+  },
+  "plugins": [
+    {
+      "name": "webcraft",
+      "source": "./webcraft",
+      "description": "짧은 요청만으로 디자인과 애니메이션이 들어간 웹사이트 시드 결과물을 만드는 Claude Code 플러그인"
+    }
+  ]
+}

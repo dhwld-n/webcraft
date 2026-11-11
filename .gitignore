@@ -1,0 +1,7 @@
+# Only the plugin and its install files are published. Test sites, work notes and local settings stay on this machine.
+/*
+!/.gitignore
+!/.claude-plugin/
+!/webcraft/
+!/README.md
+!/LICENSE
