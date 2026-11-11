@@ -201,6 +201,7 @@ function selfTest() {
   assert.ok(!f.some((l) => l.includes('메모먼트')), 'fonts excludes embedding-banned fonts');
   assert.ok(fontshare('디스플레이').length > 0, 'fontshare lists a category');
   assert.ok(motion('claymorphism').some((l) => l.startsWith('clay-surface')), 'motion finds clay-surface');
+  for (const [st, r] of [['kinetic-type', 'text-reel'], ['bento-grid', 'sticky-stack'], ['immersive-3d', 'coverflow'], ['liquid-glass', 'dock-magnify'], ['dark-tech', 'ai-stream'], ['collage', 'image-trail']]) assert.ok(motion(st).some((l) => l.startsWith(r)), 'motion finds ' + r);
   const b = bundle('claymorphism', ['originkit']);
   assert.ok(b.includes('=== 모션') && b.includes('pretendard') && b.includes('### originkit'), 'bundle has every part');
   assert.ok(b.includes('=== AI 느낌 금지') && b.includes('그라데이션') && b.includes('알약 배지'), 'bundle carries the AI-look ban list and template list');

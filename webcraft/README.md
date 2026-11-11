@@ -11,7 +11,7 @@
 ## 어떻게 동작하나
 
 1. **짧게 요청한다.** 업종과 분위기 정도만 말하면 된다. 빠진 내용은 되묻지 않고 플러그인이 정한 뒤 알려 준다.
-2. **자세한 프롬프트 대신 라이브러리를 쓴다.** 스타일 카드 24개, 레퍼런스 느낌 노트, 모션 레시피 26개, 무료 폰트 목록에서 요청에 맞는 재료를 고른다. 레퍼런스는 느낌만 참고하고 코드, 이미지, 문구는 가져오지 않는다.
+2. **자세한 프롬프트 대신 라이브러리를 쓴다.** 스타일 카드 24개, 레퍼런스 느낌 노트 30개, 모션 레시피 32개, 무료 폰트 목록에서 요청에 맞는 재료를 고른다. 레퍼런스는 느낌만 참고하고 코드, 이미지, 문구는 가져오지 않는다.
 3. **방향을 한 번 확인한다.** 구현 전에 콘셉트와 첫 화면 구도를 안정안, 과감안으로 보여 주고 확인을 받는다.
 4. **만들고 검수한다.** 구현한 뒤 에이전트가 시각, 개성, 모션, 사용성을 채점하고 고친다.
 5. **시드 결과물을 받는다.** 사진과 일부 문구는 자리표시로 남을 수 있고, 무엇을 채워야 하는지 함께 알려 준다. 이후로는 마음에 안 드는 부분만 말해서 고치면 된다.
@@ -50,13 +50,14 @@ skills/web-design/
   library/styles/             스타일 카드 24개 (editorial, bento-grid, dark-tech, neo-brutalism, claymorphism, immersive-3d, liquid-glass,
                               minimalism, swiss, maximalism, aurora, y2k-chrome, cyberpunk, surreal, retro-pixel, pop-art, retro,
                               collage, vector-art, futuristic, handwritten, bohemian, graffiti, victorian). examples/에 모범 섹션
-  library/references/         느낌 노트와 index.md
+  library/references/         느낌 노트 30개와 index.md
   library/BestMatch_color/    사용자가 고른 색 조합 71개 (palettes.md, 셋째 색이 포인트). raw.txt에 줄을 더하고 gen.cjs로 표를 다시 만든다
-  library/motion/             모션 레시피 26개 (scroll-reveal, kinetic-headline, magnetic-button, gooey-blobs,
+  library/motion/             모션 레시피 32개 (scroll-reveal, kinetic-headline, magnetic-button, gooey-blobs,
                               cushion-button, clay-surface, liquid-glass, glass-refraction, signature-draw, word-highlight,
                               odometer, pixel-loader, grain-gradient, marquee, section-color-shift,
                               particle-field, hover-play, smooth-loader, parallax-layers, tilt-card,
-                              3D: three-stage, object-shelf, point-morph, hold-to-enter, scramble-text, view-transition)
+                              3D: three-stage, object-shelf, point-morph, hold-to-enter, scramble-text, view-transition,
+                              라이브러리에서: text-reel, sticky-stack, coverflow, dock-magnify, ai-stream, image-trail)
   library/fonts/              무료 폰트 목록 (ko.md 한글 127개, en.md 영문 206개, 라이선스와 불러오는 법)
   guide/                      필요할 때만 읽는 세부 (review.md 검수 절차, report.md 보고 형식, product-ui.md 제품 화면,
                               anti-ai-look.md AI 느낌 금지 목록)
